@@ -1,0 +1,24 @@
+body {
+	font-size: 80%;
+	font-family: Courier;
+}
+ul {
+	width: 150px;
+}
+li {
+	margin: 10px;
+}
+ul.illuminations {
+	list-style-position: outside;
+}
+ul.season {
+	list-style-position: inside;
+}
+ul.inside {
+	list-style: inside circle;
+	width: 300px;
+}
+li.bold {
+	margin: 10px 0px 0px 0px;
+	font-weight: bold;
+}

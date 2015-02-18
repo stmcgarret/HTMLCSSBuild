@@ -1,0 +1,59 @@
+body {
+	font-size: 80%;
+	font-family: Courier;
+	color: #111111;
+} 
+table {
+	border-top: 7px black;
+	margin: 10px;
+	color: black;
+	border-collapse: separate;
+	/*empty-cells: hide; Hides empty cells */
+/*	background-color: #8B864E; /* will show lines separating cells */
+/*	font-style: bold;*/
+	/*background-color: #8B864E;  */
+}
+table.two {
+	border-top: 7px black;
+	margin: 10px;
+	color: red;
+	/*border-collapse: collapse;
+	/*border-spacing: 1px 7px;
+	/*empty-cells: hide; Hides empty cells */
+/*	background-color: #8B864E; /* will show lines separating cells */
+/*	font-style: bold;*/
+	/*background-color: #8B864E;  */
+}
+th {
+	border-top: 1px solid gray;
+	border-bottom: 2px solid black;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	padding-right: 15px;
+	padding-left: 10px;
+	text-transform: uppercase;
+}
+tr.even {
+	background-color: #FDFCDC;
+	color: white;
+}
+tr.odd {
+	background-color: #F0E68C;
+}
+td {
+	padding: 5px;
+	margin-top: 10px;
+	color: black;
+	text-align: left;
+	/*border: 1px solid gray; */ /* this will show cell borders */
+} 
+.money {
+	text-align: right;
+}
+h1 {
+	padding-left: 12px;
+}
+td:hover {
+	background-color:#CDCDC1; 
+}
+
